@@ -5,6 +5,24 @@ This repository contains a Laravel application for managing posts with a set of 
 
 8. Access your application in your web browser at `http://localhost:8000`.
 
+
+   
+## Installation
+
+ Need Lavavel 10.6 
+
+```bash
+ php artisan serve
+```
+```bash
+ php artisan migrate
+```
+
+```bash
+ composer update  
+
+```
+
 ## Deployment to Production
 
 For deploying to a production environment, you may need additional configurations and optimizations, including setting up a web server like Nginx or Apache, configuring the `.env` file for production, and using tools like Laravel Forge or Envoyer. Consult Laravel's official documentation for production deployment.
